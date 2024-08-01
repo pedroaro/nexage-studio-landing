@@ -379,6 +379,23 @@
   #pricing .pricing-table h1 span {
     left: 20%; } }
 
+@media (max-width: 465px) {
+  .feature-icon-responsive {
+      margin-left: auto;
+      margin-right: auto;
+      width: fit-content;
+  }
+  .feature-info-responsive {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    text-align: center;
+  }
+  #features .feature-item .feature-icon-responsive .feature-icon {
+    margin-right: 0;
+  }
+} 
+
 @media only screen and (min-width: 992px) and (max-width: 1280px) {
   .navbar-expand-md .navbar-nav .nav-link {
     font-size: 15px;
